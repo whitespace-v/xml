@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:noNamespaceSchemaLocation="demo-8.xsd">
+  <login>vasya</login>
+  <age>64</age>
+  <color>FFCFAA</color>
+  <dayoff>Среда</dayoff>
+  <phone>123-45-78</phone>
+  <phrase>I love XML Schema</phrase>
+  <size>48</size>
+  <size>M</size>
+</root>

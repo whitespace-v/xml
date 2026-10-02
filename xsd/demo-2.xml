@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="demo-2.xsd">
+  <!-- строки -->
+  <str>Abstract string</str>
+  <lang>ru-RU</lang>
+  <name>abc:xyz</name>
+  <ncname>abc-xyz</ncname>
+  <!-- числа -->
+  <byte>127</byte>
+  <positive>45</positive>
+  <positive-or-zero>0</positive-or-zero>
+  <!-- дата и время -->
+  <now>2021-03-04T16:40:23</now>
+  <birthday>2009-03-15</birthday>
+  <period>P1Y2M3DT12H34M87S</period>
+  <!-- другое -->
+  <bool>true</bool>
+  <hex>45FCAB</hex>
+  <url>http://ithub.ru</url>
+</root>

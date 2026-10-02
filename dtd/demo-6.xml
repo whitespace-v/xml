@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE office [
+	<!ELEMENT office (departments, clerks)>
+	<!ELEMENT departments (department+)>
+	<!ELEMENT clerks (clerk+)>
+	<!ELEMENT clerk (#PCDATA)>
+  <!ELEMENT department EMPTY>
+  <!ATTLIST department name ID #REQUIRED>
+  <!ATTLIST clerk
+    code CDATA #REQUIRED
+    department IDREF #REQUIRED
+  >
+]>
+<office>
+	<departments>
+    <department name='A1'/>
+    <department name='A2'/>
+    <department name='B1'/>
+  </departments>
+  <clerks>
+    <clerk code='1' department='A1'>John</clerk>
+    <clerk code='2' department='A2'>Mike</clerk>
+    <clerk code='3' department='A1'>Peter</clerk>
+    <clerk code='4' department='B1'>Maria</clerk>
+  </clerks>
+</office>

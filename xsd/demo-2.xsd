@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- строки -->
+        <xs:element name="str" type="xs:string"/>
+        <xs:element name="lang" type="xs:language"/>
+        <xs:element name="name" type="xs:Name"/>
+        <xs:element name="ncname" type="xs:NCName"/>
+        <!-- числа -->
+        <xs:element name="byte" type="xs:byte"/>
+        <xs:element name="positive" type="xs:positiveInteger"/>
+        <xs:element name="positive-or-zero" type="xs:nonNegativeInteger"/>
+        <!-- дата и время -->
+        <xs:element name="now" type="xs:dateTime"/>
+        <xs:element name="birthday" type="xs:date"/>
+        <xs:element name="period" type="xs:duration"/>
+        <!-- другое -->
+        <xs:element name="bool" type="xs:boolean"/>
+        <xs:element name="hex" type="xs:hexBinary"/>
+        <xs:element name="url" type="xs:anyURI"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

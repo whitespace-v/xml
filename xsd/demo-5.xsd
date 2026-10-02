@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:complexType name='NameType'>
+  <xs:all>
+    <xs:element name='first' type='xs:string'/>
+    <xs:element name='last' type='xs:string'/>
+    <xs:element name='middle' type='xs:string'/>
+  </xs:all>
+</xs:complexType>
+
+<xs:element name='car' type='xs:string'/>
+<xs:element name='pet' type='xs:string'/>
+
+<xs:complexType name='EmployeeType'>
+  <xs:sequence>
+    <xs:element name='phone' type='xs:string'/>
+    <xs:element name='email' type='xs:string'/>
+    <xs:element name='name' type='NameType'/>
+    <xs:any minOccurs='0'/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name='PersonalType'>
+  <xs:sequence>
+    <xs:element name='employee' type='EmployeeType' minOccurs='1' maxOccurs='unbounded'/>
+  </xs:sequence>
+</xs:complexType>
+
+<xs:element name='personal' type='PersonalType'/>
+
+
+</xs:schema>

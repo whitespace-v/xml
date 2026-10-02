@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personal
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="demo-7-2.xsd">
+  
+  <customers>
+    <customer>
+      <id>A-1</id>
+      <name>John</name>
+      <addr>Address 1</addr>
+    </customer>
+    <customer>
+      <id>A-2</id>
+      <name>Mike</name>
+      <addr>Address 2</addr>
+    </customer>
+  </customers>
+  
+  <clerks>
+    <clerk>
+      <id>B-1</id>
+      <name>Harry</name>
+      <office>Office 1</office>
+    </clerk>
+    <clerk>
+      <id>B-2</id>
+      <name>Tom</name>
+      <office>Office 2</office>
+    </clerk>
+  </clerks>
+  
+</personal>

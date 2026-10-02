@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog [
+  <!ELEMENT catalog (book+) >
+  <!ELEMENT book (title, author+, price, publisher?) >
+  <!ELEMENT title (#PCDATA) >
+  <!ELEMENT author (#PCDATA) >
+  <!ELEMENT price (#PCDATA) >
+  <!ELEMENT publisher (#PCDATA) >
+  <!ATTLIST book isbn CDATA #IMPLIED>
+  <!ATTLIST price currency CDATA #REQUIRED>
+]>
+<catalog>
+	<book isbn='456-123-45632'>
+		<title>Название</title>
+		<author>Автор</author>
+		<price currency='RUR'>123.00</price>
+		<publisher>BHV</publisher>
+	</book>
+	<book>
+		<title>Название</title>
+		<author>Автор</author>
+		<price currency='RUR'>123.00</price>
+	</book>
+	<book isbn='736-738-9948'>
+		<title>Название</title>
+		<author>Автор</author>
+    <author>Автор</author>
+		<price currency='RUR'>123.00</price>
+		<publisher>Williams</publisher>
+	</book>
+</catalog>

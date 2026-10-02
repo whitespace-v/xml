@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personal
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="demo-5.xsd">
+  <employee>
+    <phone>123-45-78</phone>
+    <email>john@smith.com</email>
+    <name>
+      <first>John</first>
+      <last>Smith</last>
+      <middle>K.</middle>
+    </name>
+    <car>...</car>
+  </employee>
+  <employee>
+    <phone>123-45-78</phone>
+    <email>john@smith.com</email>
+    <name>
+      <first>John</first>
+      <last>Smith</last>
+      <middle>K.</middle>
+    </name>
+    <pet>....</pet>
+  </employee>
+</personal>

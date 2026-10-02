@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:include schemaLocation='demo-7-3.xsd'/>
+
+<xs:complexType name='PersonalType'>
+  <xs:sequence>
+    <xs:element name='customers' type='CustomersType'/>
+    <xs:element name='clerks' type='ClerksType'/>
+  </xs:sequence>
+</xs:complexType>
+
+
+<xs:complexType name='CustomersType'>
+  <xs:sequence>
+    <xs:element name='customer' type='CustomerType' maxOccurs='unbounded'/>
+  </xs:sequence>
+</xs:complexType> 
+
+<xs:complexType name='ClerksType'>
+  <xs:sequence>
+    <xs:element name='clerk' type='ClerkType' maxOccurs='unbounded'/>
+  </xs:sequence>
+</xs:complexType> 
+
+
+
+
+<xs:element name='personal' type='PersonalType'/>
+
+</xs:schema>

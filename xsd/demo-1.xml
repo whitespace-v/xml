@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<страна xmlns="http://ithub.ru/xml/demo-1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://ithub.ru/xml/demo-1 demo-1.xsd">
+  <название>Франция</название>  
+  <население>57.9</население>
+</страна>

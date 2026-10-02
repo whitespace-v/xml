@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog [
+  <!ELEMENT catalog (book+) >
+  <!ELEMENT book (title, author, price, publisher) >
+  <!ELEMENT title (#PCDATA) >
+  <!ELEMENT author (#PCDATA) >
+  <!ELEMENT price (#PCDATA) >
+  <!ELEMENT publisher (#PCDATA) >
+  <!ENTITY bhv "BHV">
+  <!ENTITY will "Williams">
+  <!ENTITY apress "A-Press Publishing">
+]>
+<catalog>
+	<book>
+		<title>Название</title>
+		<author>Автор</author>
+		<price>123.00</price>
+		<publisher>&bhv;</publisher>
+	</book>
+	<book>
+		<title>Название</title>
+		<author>Автор</author>
+		<price>123.00</price>
+    <publisher>&apress;</publisher>
+	</book>
+	<book>
+		<title>Название</title>
+		<author>Автор</author>
+    <price>123.00</price>
+		<publisher>&will;</publisher>
+	</book>
+</catalog>
