@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+               xmlns:m="http://example.com/catalog">
+  <soap:Body>
+    <m:Product m:id="42">
+      <m:Name>Ноутбук</m:Name>
+      <m:Price>85000</m:Price>
+    </m:Product>
+  </soap:Body>
+</soap:Envelope>

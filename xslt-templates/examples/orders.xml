@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+  <order category="Books" amount="120"/>
+  <order category="Music" amount="40"/>
+  <order category="Books" amount="80"/>
+  <order category="Games" amount="200"/>
+  <order category="Music" amount="15"/>
+</orders>

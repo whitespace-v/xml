@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+  <item><name>Ноутбук</name><price>85000</price><qty>2</qty></item>
+  <item><name>Мышь "Pro"</name><price>2500</price><qty>10</qty></item>
+  <item><name>Монитор</name><price>32000</price><qty>3</qty></item>
+</items>
